@@ -11,13 +11,15 @@ requires = ["Sphinx>=0.6", "setuptools"]
 
 
 setup(
-    name="toggleblock",
-    version="1.0",
+    name="sphinxcontrib-toggleblock",
+    version="2.0",
     description="Sphinx extension",
     author="Solrun Einarsdottir",
     author_email="solrun.einarsdottir@gmail.com",
+    maintainer="Benedikt Magnusson",
+    maintainer_email="bsm@hi.is",
     packages=find_packages(),
     include_package_data=True,
     install_requires=requires,
-    namespace_packages=["toggleblock"],
+    namespace_packages=["sphinxcontrib"],
 )
